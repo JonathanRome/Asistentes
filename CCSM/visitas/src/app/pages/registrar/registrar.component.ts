@@ -18,7 +18,7 @@ export class RegistrarComponent implements OnInit {
 
   public captures: Array<any>;
 
-  private data: FormGroup;
+ data: FormGroup;
 
   constructor() {
     this.captures = [];
