@@ -1,0 +1,12 @@
+<div class="wrapper">
+
+    <div class="content ">
+        <form class="form-signin" [formGroup]="dataC" (ngSubmit)="login()">
+            <h2 class="form-signin-heading text-center">Ingresar</h2>
+            <input type="number" class="form-control" name="cedula" formControlName="cedula" placeholder="Cedula"
+                required="" autofocus="" />
+            <button type="submit" class="btn btn-lg btn-primary btn-block" [disabled]="!dataC.valid">Login</button>
+        </form>
+    </div>
+
+</div>
